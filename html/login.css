@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f2fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    direction: ltr;
+}
+
+.container {
+    background-color: #fff;
+    padding: 25px 35px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 320px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+form label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: bold;
+    color: #444;
+}
+
+form input {
+    width: 100%;
+    padding: 9px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 4px;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+form input::placeholder {
+    color: #999;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 11px 0;
+    background-color: #1565c0;
+    border: none;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #0d47a1;
+}
+
+.btnlnk {
+    display: block;              /* גורם לקישור לתפוס את כל הרוחב */
+    width: 100%;
+    text-align: center;          /* מרכז את הטקסט */
+    padding: 11px 0;             /* שיהיה תואם לכפתור */
+    background-color: #2e7d32;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px;            /* מוסיף קצת רווח מהכפתור */
+    transition: background-color 0.3s ease;
+}
+
+.btnlnk:hover {
+    background-color: #276b27;
+}
